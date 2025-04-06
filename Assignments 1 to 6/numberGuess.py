@@ -1,7 +1,10 @@
 import random
 
+# Guess the Number Game Python Project (computer)
+
 def number_guessing_game():
     print("Number Guessing Game")
+    print("NUmber Guess by Computer")
     try:
         user_input = int(input("Choose a Number between 1 to 50: "))
         if user_input < 1 or user_input > 50:
