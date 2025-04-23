@@ -34,6 +34,9 @@ def handout():
         print(f"Aww, that's incorrect. The computer's number was {computer_number}")
         computer_score += 1
 
+    else:
+        print(f"(Round Tigh Up!) Your Number {user_number} and computer Number {computer_number} are equal.")
+
     print(f"Your score: {user_score} | Computer score: {computer_score}")
 
 def main():
